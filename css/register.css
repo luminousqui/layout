@@ -1,0 +1,156 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    padding-top: 16px;
+    border-bottom: 2px solid #b1191a;
+    height: 79px;
+}
+.registerarea {
+    margin-top: 10px;
+    width: 1200px;
+    height: 545px;
+    border: 1px solid #dfdfdf;
+}
+.registerarea .hd {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.registerarea .hd div {
+    float: right; 
+    font-size: 14px;
+}
+.registerarea .hd div a {
+    color: #b1191a;
+}
+.registerarea .hd h3 {
+    float: left;
+    font-size: 18px;
+}
+.reg_form {  
+    width: 550px;
+    height: 380px;
+    margin: 57px auto 0px;
+  
+}
+.reg_form  .right img {
+    width: 20px;
+    height: 20px;
+}
+.reg_form .left {
+    display: inline-block;
+    text-align: right;
+    width: 90px;
+}
+.reg_form  input {
+    width: 240px;
+    height: 35px;
+    border:1px solid #c9c1c1;
+    margin-right: 10px;
+}
+.reg_form li {
+    margin-top: 10px;
+}
+.reg_form  .safe {
+    padding-left: 175px;
+}
+
+.reg_form  .safe .ruo{
+    padding: 0 10px;
+    background: #b1191a;
+    color: rgb(255, 255, 255);
+}
+.reg_form  .safe .zhong{
+    padding: 0 10px;
+    background: #40b83f;
+    color: rgb(255, 255, 255);
+}
+.reg_form  .safe .qiang{
+    padding: 0 10px;
+    background: #f79100;
+    color: rgb(255, 255, 255);
+}
+.reg_form .kuang {
+    margin-top: 20px;;
+    margin-left: 90px;
+    width: 12px;
+    height: 12px;
+}
+.reg_form li a {
+    color: aqua;
+}
+.reg_form button {
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 200px;
+    height: 35px;
+    background: #b1191a;
+    color: #ccc;
+}
+ /* footer模块 */
+ footer {
+    margin-top: 36px;
+    height: 420px;
+    background: #f5f5f5;
+}
+.mod_servecie{
+    height: 110px;
+}
+footer .mod_servecie li {
+    float: left;
+    padding: 36px;
+    width: 240px;
+}
+footer .mod_servecie li h5 {
+    float: left;
+    margin-right: 7px;
+    width:50px;
+    height:50px;
+   background: url(../images/icons.png) no-repeat -252px -2px; 
+
+}
+footer .mod_servecie li h4 {
+    margin-top: 4px;
+    margin-bottom: 2px;
+    color: #333333;
+    font-size: 16px;
+}
+.mod-help {
+    padding-left: 50px;
+    padding-top: 22px;
+    height: 188px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.mod-help dl{
+   float: left;
+    width: 200px;
+}
+.mod-help dl:last-child{
+    width: 150px;
+}
+.mod-help dt {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+.mod_copyright div:first-child{
+    margin-bottom: 12px;
+}
+.mod_copyright div:last-child{
+margin-top: 10px;
+}
+
+.mod_copyright div a {
+    padding: 0 5px;
+}

@@ -1,0 +1,91 @@
+// 首页的样式less文件
+@import "common";
+// @import 导入的意思 可以把一个样式文件导入到另外一个样式文件里面
+// link 是把一个 样式文件引入到 html页面里面
+@baseFont: 50;
+body {
+  min-width: 320px;
+  width: 15rem;
+  margin: 0 auto;
+  font-family:  Arial,Helvetica;
+}
+
+.search-content {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 15rem;
+    height: 88rem / @baseFont;
+    background: #ffc001;
+    display: flex;
+    .classify {
+        margin: 0.22rem 0.5rem 0.14rem 0.48rem;;
+        width: 44rem / @baseFont;
+        height: 70rem / @baseFont;
+        background: url(../images/classify.png);
+        background-size: 44rem / @baseFont 70rem / @baseFont;
+    }
+    .login {
+        width: 75rem / @baseFont;
+        height: 70rem / @baseFont;
+        text-align: center;
+        line-height: 70rem / @baseFont;
+        font-size: 25rem / @baseFont;
+        color: #ffffff;
+        margin: 0.2rem;
+    }
+    .search {
+         margin-top: 11rem / @baseFont;
+        width: 562rem / @baseFont;
+        height: 66rem / @baseFont;
+        border-radius: 33rem / @baseFont;
+        background: #fff2cc;
+        padding-left: 100rem / @baseFont;
+        form input {
+           
+         border: none;
+         width: 462rem / @baseFont;
+        height: 66rem / @baseFont;
+        background: transparent;
+        font-size: 25rem / @baseFont;
+        color: #ce9d75;
+        }
+    }   
+}
+.banner {
+    img {
+        width: 100% ;
+    }
+}
+.ad {
+    display: flex;
+    a {
+        flex: 1;
+        img {
+            width: 100%;
+        }
+    }
+       
+}
+nav {
+    a {
+        float: left;
+        width: 150rem / @baseFont;
+        height: 140rem / @baseFont;
+        text-align: center;
+        img {
+            display: block;
+            margin: 0.2rem auto 0;
+            width: 82rem / @baseFont;
+            height: 82rem / @baseFont;
+        }
+          span  {
+              color: #2c2b2b;
+              font-size: 25rem / @baseFont;
+          }
+
+        }
+        
+}
+

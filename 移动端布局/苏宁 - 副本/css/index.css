@@ -1,0 +1,51 @@
+body {
+  max-width: 750px;
+  min-width: 320px;
+  width: 10rem;
+  margin: 0 auto;
+  font-family:  Arial,Helvetica;
+}
+
+@media screen and (min-width: 750px) {
+  html {
+      font-size: 75px!important;
+  }
+}
+.search-content {
+  display: flex;
+  width: 10rem;
+  height: 1.173333rem ;
+  background: #ffc001;
+}
+.search-content .classify {
+  width: 0.586667rem;
+  height: 0.933333rem;
+  margin: 0.146667rem 0.333333rem 0.093333rem 0.32rem;
+  background: url(../images/classify.png) no-repeat;
+  background-size: 0.586667rem 70px;
+}
+.search-content .search {
+  margin-top: 0.146667rem;
+  flex: 1;
+  width: 7.493333rem;
+  height: 0.88rem;
+  margin-top: 0.146667rem;
+background: #ffffff;
+  border-radius: 0.44rem;
+  padding-left: 0.533333rem;
+}
+.search-content .search input {
+  border: 0;
+  outline: 0;
+  font-size: 0.333333rem;
+  line-height: 0.88rem;
+}
+.search-content .login {
+    width: 1rem;
+    height: 0.933333rem;
+    line-height: 0.933333rem;
+    margin:0.133333rem;
+    font-size: 0.333333rem;
+    text-align: center;
+    color: #fff;
+}

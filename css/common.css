@@ -1,0 +1,245 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+body {
+    background: #ffffff;
+}
+/* .shortcut模块制作 */
+.shortcut {
+    height: 31px;
+   line-height: 31px;
+   background: #f1f1f1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.shortcut ul li {
+    float: left;
+    font-size: 12px;
+}
+.color-red {
+    color: #c81623;
+}
+.shortcut .fr ul li:nth-child(2n) {
+  width: 1px;
+  height: 12px;
+  background: #666666;
+ margin:9px 15px 0px;
+
+}
+.shortcut .fr ul .arow-icon::after{
+    font-family: 'icomoon';
+    content: '';
+    margin-left: 10px;
+}
+/* header模块制作 */
+header {
+    position: relative;
+    height: 106px;
+    background:#ffffff;
+}
+/* logo模块制作 */
+.logo {
+    position: absolute;
+    top:27px;
+    left: 0;
+    height: 55px;
+    width: 219px;
+}
+header .logo a { 
+    display:block;
+    background-image: url(../images/logo.png) ;
+    background-repeat: no-repeat;
+    height: 55px;
+    width: 219px;
+    font-size: 0;
+}
+/* serch模块制作 */
+header .serch{
+    position: absolute;
+    top: 25px;
+    left: 348px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+    
+}
+header .serch input {
+    float: left;
+    padding-left: 20px;
+    height: 32px;
+    width: 454px;
+    outline: 0;
+    }
+    header .serch button {
+        float: left;
+        width: 80px;
+        height: 32px;
+        background: #b1191a;
+        color: #ffffff;
+    }
+    header .hotwords {
+        position: absolute;
+        left: 348px;
+        top: 70px;
+    }
+    header .hotwords a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    header .count {
+        position: absolute;
+        text-align: center;
+        background: #f7f7f7;
+        border: 1px solid #dfdfdf;
+        top: 25px;
+        right: 64px;
+        width: 140px;
+        font-size: 12px;
+        height: 36px;
+       line-height: 36px;
+   }
+   
+    header .count::before{
+        margin-right: 5px;
+        content: '\e93a';
+        font-family: 'icomoon';
+        color: #b1191a;
+    }
+    header .count::after{
+        font-family: 'icomoon';
+        margin-left: 10px;
+        content: '\e920';
+       font-size: 12px;
+    }
+    header .count .tu {
+        position: absolute;
+        top: -7px;
+        left: 105px;
+        width: 15px;
+        height: 15px;
+        line-height: 16px;
+        border-radius: 7px 7px 7px 0;
+        background: red;
+        color:#fefefe;
+    }
+    /* nav模块 */
+    nav {
+        width: 100%;
+        height: 47px;
+        border-bottom: 2px solid #b1191a;
+    }
+    nav .dropdown .dt {
+        width: 209px;
+        height: 47px;
+        background: #b1191a;
+        line-height: 47px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    nav .dropdown .dd {
+      
+        height: 465px;
+        width: 209px;
+        background: #c81623;
+    }
+    nav .dropdown .dd li {
+        margin-left: 2px;
+        padding-left: 10px;
+        height: 31px;
+        line-height: 31px;
+   }
+   nav .dropdown .dd li a {
+       color: #ffffff;
+   }
+   nav .dropdown .dd li::after {
+       float: right;
+       margin-right: 10px;
+       font-family: 'icomoon';
+       content: '\e920';
+       color: #f7f7f7;
+       font-size: 16px;
+   }
+   nav .dropdown .dd li:hover{
+       background: #f7f7f7;
+   }
+   nav .dropdown .dd li:hover a {
+       color: #c81623;
+   }
+   .navitems li {
+       float: left;
+   }
+   .navitems li a {
+       display: block;
+       padding:0 32px ;
+       height: 45px;
+       line-height: 45px;
+       font-size: 16px;
+       cursor: pointer;
+   }
+   /* footer模块 */
+ footer {
+     margin-top: 36px;
+     height: 420px;
+     background: #f5f5f5;
+ }
+ .mod_servecie{
+     height: 110px;
+ }
+ footer .mod_servecie li {
+     float: left;
+     padding: 36px;
+     width: 240px;
+ }
+ footer .mod_servecie li h5 {
+     float: left;
+     margin-right: 7px;
+     width:50px;
+     height:50px;
+    background: url(../images/icons.png) no-repeat -252px -2px; 
+
+ }
+ footer .mod_servecie li h4 {
+     margin-top: 4px;
+     margin-bottom: 2px;
+     color: #333333;
+     font-size: 16px;
+ }
+ .mod-help {
+     padding-left: 50px;
+     padding-top: 22px;
+     height: 188px;
+     border-top: 1px solid #ededed;
+     border-bottom: 1px solid #ededed;
+ }
+ .mod-help dl{
+    float: left;
+     width: 200px;
+ }
+ .mod-help dl:last-child{
+     width: 150px;
+ }
+ .mod-help dt {
+     font-size: 16px;
+     line-height: 20px;
+     margin-bottom: 10px;
+ }
+ .mod_copyright {
+     text-align: center;
+     padding-top: 20px;
+ }
+ .mod_copyright div:first-child{
+     margin-bottom: 12px;
+ }
+ .mod_copyright div:last-child{
+margin-top: 10px;
+ }
+ 
+ .mod_copyright div a {
+     padding: 0 5px;
+ }

@@ -1,0 +1,31 @@
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 184px;
+   box-sizing: content-box;
+    border-left: 1px solid #b1191a;
+    padding: 3px 10px;  
+}
+header {
+  position: relative;
+}
+nav .left h3 {
+    padding: 0 30px;
+    line-height: 47px;
+    float: left;
+    font-size: 18px;
+    color: #000;
+}
+nav .right a {
+    line-height: 47px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+nav .right a:last-child::after {
+    font-family: 'icomoon';
+    content: '';
+
+}
+.sk_container .bd div {
+    float: left;
+} 
